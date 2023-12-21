@@ -1,5 +1,4 @@
 project "freetype"
-	location "freetype"
 	kind "StaticLib"
 	language "C"
     staticruntime "off"
