@@ -51,6 +51,7 @@ project "freetype"
 		"src/sdf/sdf.c",
 		"src/sfnt/sfnt.c",
 		"src/smooth/smooth.c",
+		"src/svg/svg.c",
 		"src/truetype/truetype.c",
 		"src/type1/type1.c",
 		"src/type42/type42.c",

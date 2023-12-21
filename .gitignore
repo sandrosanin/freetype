@@ -5,3 +5,14 @@ src/dlg/dlg.c
 subprojects/*
 !subprojects/*.wrap
 /tests/data/*
+
+# Binaries
+**/000_bin/
+000_bin-int/
+
+# Visual Studio files and folder
+.vs/
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
