@@ -4,8 +4,8 @@ project "freetype"
 	language "C"
     staticruntime "off"
 
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+    targetdir ("000_bin/" .. outputdir .. "/%{prj.name}")
+    objdir ("000_bin-int/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
